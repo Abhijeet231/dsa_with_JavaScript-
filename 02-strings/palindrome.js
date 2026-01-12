@@ -1,0 +1,1 @@
+// Check palindrom in strings 
