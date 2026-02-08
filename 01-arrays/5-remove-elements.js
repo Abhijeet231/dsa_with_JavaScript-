@@ -1,4 +1,4 @@
-/* 
+/* PROBLEM STATEMENT
 
 * Given an integer array nums and an integer val, remove all occurences of val in nums in-place. 
 
