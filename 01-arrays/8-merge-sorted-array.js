@@ -45,7 +45,7 @@ const mergeArrOpt = (num1,m, num2,n) => {
     let p2 = n-1;  // last valid element in num2
     let i = m+n -1; // position to fill from back
 
-    for(let i = m+n-1; i>=0; i++){
+    for(let i = m+n-1; i>=0; i--){
         if(p2<0) break;
 
         if(p1 >= 0 && num1[p1] > num2[p2]) {
@@ -57,3 +57,4 @@ const mergeArrOpt = (num1,m, num2,n) => {
         }
     }
 }
+
